@@ -1,5 +1,22 @@
 # better-auth
 
+## 1.6.8
+
+### Patch Changes
+
+- [#9253](https://github.com/better-auth/better-auth/pull/9253) [`856ab24`](https://github.com/better-auth/better-auth/commit/856ab2426c0dce7377ee1ca26dbb7d9e52fb6429) Thanks [@baptisteArno](https://github.com/baptisteArno)! - fix(organization): allow passing id through `beforeCreateTeam` and `beforeCreateInvitation`
+
+  Mirrors [#4765](https://github.com/better-auth/better-auth/issues/4765) for teams and invitations: `adapter.createTeam` and `adapter.createInvitation` now pass `forceAllowId: true`, so ids returned from the respective hooks survive the DB insert.
+
+- Updated dependencies []:
+  - @better-auth/core@1.6.8
+  - @better-auth/drizzle-adapter@1.6.8
+  - @better-auth/kysely-adapter@1.6.8
+  - @better-auth/memory-adapter@1.6.8
+  - @better-auth/mongo-adapter@1.6.8
+  - @better-auth/prisma-adapter@1.6.8
+  - @better-auth/telemetry@1.6.8
+
 ## 1.6.7
 
 ### Patch Changes

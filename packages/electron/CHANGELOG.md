@@ -1,5 +1,13 @@
 # @better-auth/electron
 
+## 1.6.8
+
+### Patch Changes
+
+- Updated dependencies [[`856ab24`](https://github.com/better-auth/better-auth/commit/856ab2426c0dce7377ee1ca26dbb7d9e52fb6429)]:
+  - better-auth@1.6.8
+  - @better-auth/core@1.6.8
+
 ## 1.6.7
 
 ### Patch Changes
